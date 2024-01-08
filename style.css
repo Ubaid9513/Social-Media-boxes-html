@@ -2,6 +2,7 @@
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
+    text-decoration: underline;
 
 }
 
@@ -20,7 +21,11 @@
     border-radius: 7px;
     padding-top: 10px;
     position: relative;
-    
+}
+
+.left:hover{
+    background: linear-gradient(skyblue,rgb(31, 31, 186));
+
 }
 
 .left h1{
@@ -48,14 +53,23 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+
 .center{
     width: 25%;
     height: auto;
     margin-left: 50px;
     border: 3px solid black;
-    border-radius: 7px;
+    border-radius: 7px;    
+}
 
-    
+.center:hover{
+    background: linear-gradient(rgb(78, 78, 237),red,yellow);
+
+}
+
+.center img{
+    padding-top: 20px;
+
 }
 
 .center h1{
@@ -92,14 +106,21 @@
     border-radius: 7px;
     
 }
+.right:hover{
+    background: linear-gradient(pink,red);
+
+}
 
 .right img{
-    padding-top: 22px;
+    padding-top: 10px;
 }
 
 .right h1{
     font-family: sans-serif;
-    padding-top: 24px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 15px;
 }
 
 
@@ -109,6 +130,8 @@
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 5px;
+    margin-bottom: 15px;
     
 }
 
