@@ -1,0 +1,124 @@
+.h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.left{
+    width: 25%;
+    height: auto;
+    margin-left: 110px;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding-top: 10px;
+    position: relative;
+    
+}
+
+.left h1{
+    font-family: sans-serif;
+    padding-top: 10px;
+    
+}
+
+.left p{
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.left button{
+    width:65%;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.center{
+    width: 25%;
+    height: auto;
+    margin-left: 50px;
+    border: 3px solid black;
+    border-radius: 7px;
+
+    
+}
+
+.center h1{
+    font-family: sans-serif;
+    padding-top: 3px;
+}
+
+
+.center p{
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.center button{
+    width:65%;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.right{
+    width: 25%;
+    height: auto;
+    margin-left: 50px;
+    border: 3px solid black;
+    border-radius: 7px;
+    
+}
+
+.right img{
+    padding-top: 22px;
+}
+
+.right h1{
+    font-family: sans-serif;
+    padding-top: 24px;
+}
+
+
+.right p{
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.right button{
+    width:65%;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
